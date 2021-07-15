@@ -1,0 +1,16 @@
+const express = require('express')
+
+const config = require('./config')
+const books = require('./routes/books')
+
+const app = express()
+
+app.use('/api/books', books)
+
+app.get('/api/health', (req, res) => {
+  res.send('Hey, What’s up?')
+})
+
+app.listen(config.PORT, () => {
+  console.log(`App listening at http://localhost:${config.PORT}`)
+})
