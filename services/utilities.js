@@ -1,8 +1,11 @@
 const moment = require('moment')
 
 function generateBookCode() {
-  const code = `${moment().format('YYMM-DD')}-${randomString(3)}-${randomString(5)}-${randomOneDigit()}`
-  return code
+  return `${moment().format('YYMM-DD')}-${randomString(3)}-${randomString(5)}-${randomOneDigit()}`
+}
+
+function generateUserCode() {
+  return `U-${randomString(4)}-${randomString(5)}-${randomString(2)}-${randomOneDigit()}`
 }
 
 function randomOneDigit() {
@@ -22,4 +25,5 @@ function randomString(length) {
 
 module.exports = {
   generateBookCode,
+  generateUserCode,
 }
