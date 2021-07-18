@@ -2,16 +2,30 @@
   {
     "code": "2107-15-O70-PLN9D-0",
     "nameThai": "เซนกับคนบ้าข่าว",
-    "nameEnglish": null
+    "nameEnglish": null,
+    "authors": [],
+    "translators": []
   },
   {
     "code": "2107-15-II1-61L0L-1",
     "nameThai": "สูญเสียแค่ไหน ก็ไม่เสียศูนย์",
-    "nameEnglish": "How to Fix a Broken Heart"
+    "nameEnglish": "How to Fix a Broken Heart",
+    "authors": [],
+    "translators": []
   },
   {
     "code": "2107-15-54A-B08LL-5",
     "nameThai": "อวสานนักการ์ตูน",
-    "nameEnglish": "Death of Storyman"
+    "nameEnglish": "Death of Storyman",
+    "authors": [],
+    "translators": []
+  },
+  {
+    "code": "2107-17-5ZA-BZ8DD-1",
+    "nameThai": null,
+    "nameEnglish": "The Life-Changing Manga of Tidying Up: A Magical Story",
+    "authors": ["Marie Kondo"],
+    "translators": [],
+    "illustrateds": ["Yuko Uramoto"]
   }
 ]
