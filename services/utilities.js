@@ -10,7 +10,14 @@ function randomOneDigit() {
 }
 
 function randomString(length) {
-  return Math.random().toString(26).substring(2, length + 2).toUpperCase()
+  const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+
+  let result = '';
+  for ( let i = 0; i < length; i++ ) {
+    result += characters.charAt(Math.floor(Math.random() * characters.length));
+  }
+
+  return result;
 }
 
 module.exports = {
