@@ -1,31 +1,28 @@
 [
   {
-    "code": "2107-15-O70-PLN9D-0",
+    "code": "B-2107-15-O70-PLN9D-0",
     "nameThai": "เซนกับคนบ้าข่าว",
-    "nameEnglish": null,
-    "authors": [],
-    "translators": []
+    "authors": ["สุทธิชัย หยุ่น"]
   },
   {
-    "code": "2107-15-II1-61L0L-1",
+    "code": "B-2107-15-II1-61L0L-1",
     "nameThai": "สูญเสียแค่ไหน ก็ไม่เสียศูนย์",
     "nameEnglish": "How to Fix a Broken Heart",
-    "authors": [],
-    "translators": []
+    "authors": ["Guy Winch"],
+    "translators": ["วรรธนา วงษ์ฉัตร"]
   },
   {
-    "code": "2107-15-54A-B08LL-5",
+    "code": "B-2107-15-54A-B08LL-5",
     "nameThai": "อวสานนักการ์ตูน",
     "nameEnglish": "Death of Storyman",
-    "authors": [],
-    "translators": []
+    "storyBy": ["Sonoson", "บก.ซัน", "ธัญลักษณ์ เตชศรีสุธี"],
+    "illustrates": ["The Duang", "วีระชัย ดวงพลา"]
   },
   {
-    "code": "2107-17-5ZA-BZ8DD-1",
-    "nameThai": null,
+    "code": "B-2107-17-5ZA-BZ8DD-1",
     "nameEnglish": "The Life-Changing Manga of Tidying Up: A Magical Story",
     "authors": ["Marie Kondo"],
-    "translators": [],
-    "illustrateds": ["Yuko Uramoto"]
+    "translators": ["Cathy Hirano"],
+    "illustrates": ["Yuko Uramoto"]
   }
 ]
