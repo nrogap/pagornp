@@ -1,19 +1,23 @@
-const passwordsService = require('./passwords')
+const db = require('./database')
+const { compare } = require('./passwords')
 
-const sampleUsers = require('../sample-data/users.json')
+async function findByCredential(username, password) {
+  const { rows } = await db.query(
+    'SELECT * FROM users WHERE username = $1 LIMIT 1',
+    [username]
+  )
 
-function findByCredential(username, password) {
-  const user = sampleUsers.find(element => {
-    return element.username === username
-  })
+  const user = rows[0]
 
   if (user === undefined) {
     return null
   }
 
-  if(!passwordsService.compare(password, user.password)) {
+  if(!compare(password, user.password)) {
     return null
   }
+
+  delete user.password
 
   return user
 }
