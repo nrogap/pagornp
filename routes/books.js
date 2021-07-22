@@ -13,11 +13,10 @@ router.get('/:code', function (req, res) {
   const book = sampleBooks.find(element => element.code === code);
 
   if (book === undefined) {
-    res.status(404).json({ error: 'NOT_FOUND' })
-  } else {
-    res.json(book)
+    return res.sendStatus(404)
   }
 
+  res.json(book)
 })
 
 module.exports = router
