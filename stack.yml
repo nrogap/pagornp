@@ -1,4 +1,5 @@
-# Use postgres/example user/password credentials
+# Run first time try `docker compose up -f stack.yml -d`
+
 version: '3.8'
 
 services:
