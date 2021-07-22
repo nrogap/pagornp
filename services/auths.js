@@ -3,11 +3,11 @@ const jwt = require('jsonwebtoken');
 const { JWT_SECRET_KEY } = require('../config')
 const { JWT } = require('../constants')
 
-function generateAccessToken(user, role) {
+function generateAccessToken(user) {
   const payload = {
     code: user.code,
     name: user.name,
-    role: role,
+    role: user.role,
   }
 
   const config = {
@@ -21,4 +21,3 @@ function generateAccessToken(user, role) {
 module.exports = {
   generateAccessToken,
 }
-
